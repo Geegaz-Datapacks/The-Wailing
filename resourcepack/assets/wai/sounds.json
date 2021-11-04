@@ -1,19 +1,33 @@
 {
-    "ambient.the_wailing": {
+    "event.the_wailing": {
         "sounds": [
-            "ambient/the_wailing"
+            "wai:event/the_wailing"
         ],
         "subtitle": "The Wailing advances"
     },
-    "entity.wailer": {
+    "entity.wailer_cry": {
         "sounds": [
-            "entity/wailer/wailer_cry-001",
-            "entity/wailer/wailer_cry-002",
-            "entity/wailer/wailer_cry-003",
-            "entity/wailer/wailer_cry-004",
-            "entity/wailer/wailer_cry-005",
-            "entity/wailer/wailer_cry-006"
+            "wai:entity/wailer/wailer_cry1",
+            "wai:entity/wailer/wailer_cry2",
+            "wai:entity/wailer/wailer_cry3"
         ],
         "subtitle": "wailer crying"
+    },
+    "entity.developed_wailer_cry": {
+        "sounds": [
+            "wai:entity/developed_wailer/developed_wailer_cry-001",
+            "wai:entity/developed_wailer/developed_wailer_cry-002",
+            "wai:entity/developed_wailer/developed_wailer_cry-003",
+            "wai:entity/developed_wailer/developed_wailer_cry-004",
+            "wai:entity/developed_wailer/developed_wailer_cry-005",
+            "wai:entity/developed_wailer/developed_wailer_cry-006"
+        ],
+        "subtitle": "developed wailer crying"
+    },
+    "entity.wailer_death": {
+        "sounds": [
+            "wai:entity/wailer/wailer_death"
+        ],
+        "subtitle": "wailer dying"
     }
 }

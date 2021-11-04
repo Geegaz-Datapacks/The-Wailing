@@ -7,6 +7,7 @@ scoreboard objectives add wai.CONST dummy
 
 scoreboard players set $wai.safetime wai.CONST 48000
 scoreboard players set $wai.spawn_tries wai.CONST 5
-scoreboard players set $wai.wailers wai.CONST 5
+scoreboard players set $wai.grow_trigger wai.CONST 5
+scoreboard players set $wai.show_hints wai.CONST 0
 
 function wai:second

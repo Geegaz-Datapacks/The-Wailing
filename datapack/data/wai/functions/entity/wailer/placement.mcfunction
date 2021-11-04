@@ -1,4 +1,3 @@
-say trying to place wailer...
 spreadplayers ~ ~ 0 20 false @s
 
 scoreboard players add $wai.placement wai.var 1
