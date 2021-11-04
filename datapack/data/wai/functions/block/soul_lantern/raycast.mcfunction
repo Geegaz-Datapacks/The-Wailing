@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ soul_lantern align xyz positioned ~0.5 ~0.5 ~0.5 run function wai:block/soul_lantern/create
+execute if entity @s[distance=..6,tag=!wai.success] positioned ^ ^ ^0.02 run function wai:block/soul_lantern/raycast

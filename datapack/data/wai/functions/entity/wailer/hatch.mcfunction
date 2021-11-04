@@ -1,11 +1,10 @@
 
-execute if score $wai.show_hints wai.CONST matches 1.. run tellraw @a [{"text": "The Wailing... has","color": "gray"},{"text": "begun","italic": true}]
+execute if score $wai.show_hints wai.CONST matches 1.. run tellraw @a [{"text": "The Wailing... is","color": "gray"},{"text": "here","italic": true}]
 
-summon husk ~ ~ ~ 
+function wai:entity/developed_wailer/spawn
 
 # SFX
 playsound wai:event.the_wailing ambient @a
-playsound entity.turtle.egg_crack block @a ~ ~ ~ 2.0 0
 playsound entity.generic.explode block @a ~ ~ ~ 0.4 0
 # VFX
 particle large_smoke ~ ~ ~ 0 1 0 0.1 0
