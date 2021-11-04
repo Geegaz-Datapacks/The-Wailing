@@ -1,0 +1,19 @@
+{
+    "ambient.the_wailing": {
+        "sounds": [
+            "ambient/the_wailing"
+        ],
+        "subtitle": "The Wailing advances"
+    },
+    "entity.wailer": {
+        "sounds": [
+            "entity/wailer/wailer_cry-001",
+            "entity/wailer/wailer_cry-002",
+            "entity/wailer/wailer_cry-003",
+            "entity/wailer/wailer_cry-004",
+            "entity/wailer/wailer_cry-005",
+            "entity/wailer/wailer_cry-006"
+        ],
+        "subtitle": "wailer crying"
+    }
+}

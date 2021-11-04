@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "The Wailing          ",
+        "description": "§8§oStay on the move, or it will come...§r\nA horror-themed datapack for Jamtober 2021",
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:geegaz",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
