@@ -1,5 +1,4 @@
-effect give @a[distance=..20] slowness 1 0 true
-effect give @a[distance=..20] blindness 1 0 true
+effect give @a[distance=..10] slowness 1 0 true
 
 scoreboard players add @s wai.CONST 1
 execute if score @s wai.CONST matches 5.. run playsound wai:entity.developed_wailer_cry hostile @a ~ ~ ~ 0.8
