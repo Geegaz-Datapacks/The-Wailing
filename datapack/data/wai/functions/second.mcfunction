@@ -7,6 +7,6 @@ execute if score $wai.is_night wai.var matches 1 as @e[type=#wai:night,tag=!wai.
 execute if score $wai.is_night wai.var matches 0 run tag @e[type=#wai:night] remove wai.night
 
 execute as @e[type=husk,tag=wai.dev_wailer] run function wai:entity/developed_wailer/second
-execute as @e[type=husk,tag=wai.dev_wailer] run function wai:entity/wailer/second
+execute as @e[type=armor_stand,tag=wai.wailer] run function wai:entity/wailer/second
 
 schedule function wai:second 1s replace
