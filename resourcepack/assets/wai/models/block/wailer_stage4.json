@@ -1,0 +1,72 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "wai:block/wailer_stage2",
+		"1": "wai:block/wailer_stage2_head",
+		"2": "wai:block/wailer_stage3_head",
+		"particle": "wai:block/wailer_stage2"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 0],
+			"to": [8, 16, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 18.2409, 3.15643],
+			"to": [11, 26.2409, 9.15643],
+			"rotation": {"angle": 0, "axis": "x", "origin": [6, 18.2409, 6.15643]},
+			"faces": {
+				"north": {"uv": [0, 8, 6, 16], "texture": "#2"},
+				"east": {"uv": [12, 8, 6, 16], "texture": "#2"},
+				"south": {"uv": [9, 0, 15, 8], "texture": "#2"},
+				"west": {"uv": [6, 8, 12, 16], "texture": "#2"},
+				"up": {"uv": [9, 0, 15, 6], "texture": "#2"}
+			}
+		},
+		{
+			"from": [4, 14, 4],
+			"to": [12, 22, 12],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 19, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#2"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#2"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#2"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#2"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#2"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#2"}
+			}
+		},
+		{
+			"from": [5, 11.21163, 7.07193],
+			"to": [11, 17.21163, 13.07193],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 15.21163, 10.07193]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 6], "texture": "#1"},
+				"east": {"uv": [6, 0, 12, 6], "texture": "#1"},
+				"south": {"uv": [6, 0, 12, 6], "texture": "#1"},
+				"west": {"uv": [6, 0, 12, 6], "texture": "#1"},
+				"down": {"uv": [0, 6, 6, 12], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -32, 0],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	}
+}

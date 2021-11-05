@@ -1,3 +1,6 @@
 # External Apps
 .vscode/
 reaper/
+
+# Build
+build/

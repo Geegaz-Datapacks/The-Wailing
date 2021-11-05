@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "wai:start_hint"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/black_concrete",
+    "overrides": [
+        {"predicate": {"custom_model_data":1708001}, "model": "wai:block/wailer_stage1"},
+        {"predicate": {"custom_model_data":1708002}, "model": "wai:block/wailer_stage2"},
+        {"predicate": {"custom_model_data":1708003}, "model": "wai:block/wailer_stage3"},
+        {"predicate": {"custom_model_data":1708004}, "model": "wai:block/wailer_stage4"},
+        
+        {"predicate": {"custom_model_data":1708005}, "model": "wai:entity/developed_wailer"}
+    ]
+}

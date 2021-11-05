@@ -1,0 +1,48 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Scribbled Note",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Burn them !",
+                                    "color": "dark_gray"
+                                },
+                                {
+                                    "text": "Look around every night,",
+                                    "color": "dark_gray"
+                                },
+                                {
+                                    "text": "and burn any of those...",
+                                    "color": "dark_gray"
+                                },
+                                {
+                                    "text": "things",
+                                    "color": "dark_gray",
+                                    "bold": true
+                                },
+                                {
+                                    "text": "                            G.",
+                                    "color": "dark_gray"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
