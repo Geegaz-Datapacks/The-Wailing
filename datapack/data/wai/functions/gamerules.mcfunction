@@ -6,7 +6,7 @@ scoreboard players set $wai.safetime wai.CONST 24000
 scoreboard players set $wai.spawn_tries wai.CONST 5
 
 # How many times a wailer will need to grow before hatching
-scoreboard players set $wai.grow_trigger wai.CONST 3
+scoreboard players set $wai.grow_trigger wai.CONST 4
 
 # Show gameplay hints in the form of small texts
 scoreboard players set $wai.show_hints wai.CONST 0

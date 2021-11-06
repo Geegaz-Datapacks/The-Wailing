@@ -7,9 +7,13 @@
     },
     "entity.wailer_cry": {
         "sounds": [
-            "wai:entity/wailer/wailer_cry1",
-            "wai:entity/wailer/wailer_cry2",
-            "wai:entity/wailer/wailer_cry3"
+            "wai:entity/wailer/wailer_cry-001",
+            "wai:entity/wailer/wailer_cry-002",
+            "wai:entity/wailer/wailer_cry-003",
+            "wai:entity/wailer/wailer_cry-004",
+            "wai:entity/wailer/wailer_cry-005",
+            "wai:entity/wailer/wailer_cry-006",
+            "wai:entity/wailer/wailer_cry-007"
         ],
         "subtitle": "wailer crying"
     },
